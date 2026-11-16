@@ -1,0 +1,32 @@
+body {
+    background-color: #0b0c10;
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+p, li {
+    color: #f5f5f7;
+    line-height: 1.6;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #c92a2a;
+}
+h1, h2, h3, h4 {
+    color: #c92a2a; 
+    font-family: Georgia, serif;
+}
+#main-heading {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.detail-card {
+    background-color: #1f2023; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(199, 42, 42, 0.15);
+}
+a { color: #4dadf7; }
+a:visited { color: #b197fc; }

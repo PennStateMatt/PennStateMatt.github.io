@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mars Mission Terminal</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="mars-theme">
+    <header class="hud-display">
+        <h1 id="greeting">SHIP'S LOG: Commander USER</h1>
+        <p id="message">Sol 1: Safely landed on Mars.</p>
+    </header>
+    <main class="controls-container">
+        <section class="hud">
+            <h2>[ ASTRONAUT HUD ]</h2>
+            <form id="customizerForm">
+                <div class="form-group">
+                    <label for="nameInput">-> NASA Sign-On:</label>
+                    <input type="text" id="nameInput">
+                </div>
+                <div class="form-group">
+                    <label for="messageInput">-> Relay Mission Log:</label>
+                    <input type="text" id="messageInput">
+                </div>
+                <div class="form-group">
+                    <label for="colorSelect">-> Load Mission Profile:</label>
+                    <select id="colorSelect">
+                        <option value="#470000">Little Red Planet</option> 
+                        <option value="#0033a1">Pale Blue Dot</option>
+                        <option value="#383838">Dark Side of the Moon</option>
+                    </select>
+                </div>
+                <button type="button" id="button">TRANSMIT TO HOUSTON</button>
+            </form>
+        </section>
+        <section class="hud">
+            <h2>[ MISSION PLANNER ]</h2>
+            <div class="todo-form">
+                <input type="text" id="todoList">
+                <button type="button" id="todoButton">LOG TASK</button>
+            </div>
+            <ol id="todoListItems"></ol>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
